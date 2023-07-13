@@ -1,0 +1,70 @@
+{
+  "days" : [ {
+    "day" : "SUNDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 1,
+    "maxTasks" : 2
+  }, {
+    "day" : "MONDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 1,
+    "maxTasks" : 2
+  }, {
+    "day" : "TUESDAY",
+    "tasks" : [ {
+      "name" : "classTask1",
+      "description" : "Task1",
+      "day" : "TUESDAY",
+      "complete" : false
+    }, {
+      "name" : "classTask2",
+      "description" : "task2",
+      "day" : "TUESDAY",
+      "complete" : true
+    } ],
+    "events" : [ {
+      "name" : "ClassEvent1",
+      "description" : "event1",
+      "day" : "TUESDAY",
+      "start-time" : "2:00",
+      "duration" : "1:00"
+    } ],
+    "maxEvents" : 1,
+    "maxTasks" : 2
+  }, {
+    "day" : "WEDNESDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 1,
+    "maxTasks" : 2
+  }, {
+    "day" : "THURSDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 1,
+    "maxTasks" : 2
+  }, {
+    "day" : "FRIDAY",
+    "tasks" : [ {
+      "name" : "classTask3",
+      "description" : "task3",
+      "day" : "FRIDAY",
+      "complete" : true
+    } ],
+    "events" : [ ],
+    "maxEvents" : 1,
+    "maxTasks" : 2
+  }, {
+    "day" : "SATURDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 1,
+    "maxTasks" : 2
+  } ],
+  "bujoFile" : "C:\\Users\\andre\\CS3500\\pa05-mvc2\\src\\main\\testfiles\\classDemo1.bujo",
+  "notesAndQuotes" : "classDemo",
+  "weekTitle" : "12th",
+  "password" : "classDemo"
+}

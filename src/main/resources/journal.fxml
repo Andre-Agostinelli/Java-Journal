@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Scene?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<Scene xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="714.0" prefWidth="1074.0">
+      <children>
+         <HBox alignment="CENTER" layoutX="178.0" layoutY="96.0" prefHeight="604.0" prefWidth="708.0">
+            <children>
+               <GridPane fx:id="mainGrid" alignment="CENTER" gridLinesVisible="true" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="600.0" prefWidth="703.0">
+                  <columnConstraints>
+                     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                     <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  </columnConstraints>
+                  <rowConstraints>
+                     <RowConstraints maxHeight="172.0" minHeight="0.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="254.0" minHeight="0.0" prefHeight="44.0" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="281.0" minHeight="0.0" prefHeight="45.0" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="333.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="365.0" minHeight="0.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="450.0" minHeight="10.0" prefHeight="48.0" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="397.0" minHeight="10.0" prefHeight="50.0" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="397.0" minHeight="10.0" prefHeight="48.0" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="397.0" minHeight="10.0" prefHeight="48.0" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="397.0" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="397.0" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="397.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                     <RowConstraints maxHeight="397.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                  </rowConstraints>
+               </GridPane>
+            </children>
+         </HBox>
+         <Label fx:id="weekOf" layoutX="178.0" layoutY="49.0" prefHeight="39.0" prefWidth="343.0" text="Week of " textFill="#050404b0">
+            <font>
+               <Font name="American Typewriter" size="27.0" />
+            </font></Label>
+         <Label fx:id="month" alignment="CENTER_RIGHT" layoutX="547.0" layoutY="49.0" prefHeight="39.0" prefWidth="269.0" text="June" textFill="#050404b0">
+            <font>
+               <Font name="American Typewriter" size="27.0" />
+            </font>
+         </Label>
+         <Label fx:id="year" alignment="CENTER_RIGHT" layoutX="808.0" layoutY="49.0" prefHeight="39.0" prefWidth="78.0" text="2023" textFill="#050404b0">
+            <font>
+               <Font name="American Typewriter" size="27.0" />
+            </font>
+         </Label>
+         <TextArea fx:id="notesAndQuotes" layoutX="19.0" layoutY="255.0" prefHeight="200.0" prefWidth="145.0" />
+         <Label layoutX="19.0" layoutY="226.0" prefHeight="29.0" prefWidth="145.0" text="  Quotes &amp; Notes: ">
+            <font>
+               <Font name="American Typewriter" size="13.0" />
+            </font>
+         </Label>
+         <Label layoutX="19.0" layoutY="471.0" prefHeight="29.0" prefWidth="145.0" text="  Task Queue:">
+            <font>
+               <Font name="American Typewriter" size="13.0" />
+            </font>
+         </Label>
+         <ListView fx:id="taskQueue" layoutX="19.0" layoutY="500.0" prefHeight="200.0" prefWidth="145.0" />
+         <Button fx:id="saveToFile" minWidth="47.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="47.0" style="-fx-background-color: white;" text="Save" textOverrun="WORD_ELLIPSIS" />
+         <Button fx:id="openFile" layoutX="48.0" minWidth="48.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="48.0" style="-fx-background-color: white;" text="Open" textOverrun="WORD_ELLIPSIS" />
+         <Button fx:id="addMenuEvent" layoutX="96.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="78.0" style="-fx-background-color: white;" text="New Event" textOverrun="WORD_ELLIPSIS" />
+         <Button fx:id="addMenuTask" layoutX="174.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="74.0" style="-fx-background-color: white;" text="New Task" textOverrun="WORD_ELLIPSIS" />
+         <Button fx:id="newWeek" layoutX="248.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="78.0" style="-fx-background-color: white;" text="New Week" />
+         <Button fx:id="newMonth" layoutX="326.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="84.0" style="-fx-background-color: white;" text="New Month" />
+         <Button fx:id="newYear" layoutX="405.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="72.0" style="-fx-background-color: white;" text="New Year" />
+         <TextField fx:id="weekLabel" layoutX="287.0" layoutY="49.0" prefHeight="39.0" prefWidth="275.0">
+            <font>
+               <Font size="18.0" />
+            </font>
+         </TextField>
+         <Circle fx:id="profilePicture" fill="#fff7f5" layoutX="91.0" layoutY="88.0" radius="49.0" stroke="#c46a5e" strokeType="INSIDE" />
+         <Button fx:id="addEvent" layoutX="26.0" layoutY="148.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: pink;" stylesheets="@scene.css" text="Add event" />
+         <Button fx:id="addTask" layoutX="26.0" layoutY="190.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: pink;" stylesheets="@scene.css" text="Add task" />
+         <Label fx:id="totalEvents" layoutX="994.0" layoutY="128.0" prefHeight="17.0" prefWidth="48.0" />
+         <Label fx:id="totalTasks" layoutX="993.0" layoutY="148.0" prefHeight="17.0" prefWidth="49.0" />
+         <Label fx:id="tasksCompleted" layoutX="993.0" layoutY="169.0" prefHeight="17.0" prefWidth="49.0" />
+         <TextArea fx:id="weeklyOverview" layoutX="900.0" layoutY="129.0" prefHeight="129.0" prefWidth="162.0" />
+         <Label layoutX="908.0" layoutY="96.0" prefHeight="29.0" prefWidth="145.0" text="Weekly Overview">
+            <font>
+               <Font name="American Typewriter" size="13.0" />
+            </font>
+         </Label>
+         <Button fx:id="password" layoutX="478.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="98.0" style="-fx-background-color: white;" text="Set Password" />
+         <Button fx:id="maxEntries" layoutX="916.0" layoutY="281.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="130.0" style="-fx-background-color: pink;" stylesheets="@scene.css" text="Set max entries" />
+      </children></AnchorPane>
+</Scene>

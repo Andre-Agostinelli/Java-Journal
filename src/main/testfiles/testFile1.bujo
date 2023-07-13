@@ -1,0 +1,49 @@
+{
+  "days" : [ {
+    "day" : "SUNDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 10,
+    "maxTasks" : 10
+  }, {
+    "day" : "MONDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 10,
+    "maxTasks" : 10
+  }, {
+    "day" : "TUESDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 10,
+    "maxTasks" : 10
+  }, {
+    "day" : "WEDNESDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 10,
+    "maxTasks" : 10
+  }, {
+    "day" : "THURSDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 10,
+    "maxTasks" : 10
+  }, {
+    "day" : "FRIDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 10,
+    "maxTasks" : 10
+  }, {
+    "day" : "SATURDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 10,
+    "maxTasks" : 10
+  } ],
+  "bujoFile" : "C:\\Users\\andre\\CS3500\\pa05-mvc2\\testFile1.bujo",
+  "notesAndQuotes" : null,
+  "weekTitle" : null,
+  "password" : null
+}

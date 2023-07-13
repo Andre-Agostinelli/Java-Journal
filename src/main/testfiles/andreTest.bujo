@@ -1,0 +1,65 @@
+{
+  "days" : [ {
+    "day" : "SUNDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 6,
+    "maxTasks" : 6
+  }, {
+    "day" : "MONDAY",
+    "tasks" : [ {
+      "name" : "testerTask",
+      "description" : "descriptor1",
+      "day" : "MONDAY",
+      "complete" : false
+    }, {
+      "name" : "testerTask2",
+      "description" : "descriptor",
+      "day" : "MONDAY",
+      "complete" : false
+    } ],
+    "events" : [ {
+      "name" : "testerEvent",
+      "description" : "descriptor",
+      "day" : "MONDAY",
+      "start-time" : "2:00pm",
+      "duration" : "1hr"
+    } ],
+    "maxEvents" : 6,
+    "maxTasks" : 6
+  }, {
+    "day" : "TUESDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 6,
+    "maxTasks" : 6
+  }, {
+    "day" : "WEDNESDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 6,
+    "maxTasks" : 6
+  }, {
+    "day" : "THURSDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 6,
+    "maxTasks" : 6
+  }, {
+    "day" : "FRIDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 6,
+    "maxTasks" : 6
+  }, {
+    "day" : "SATURDAY",
+    "tasks" : [ ],
+    "events" : [ ],
+    "maxEvents" : 6,
+    "maxTasks" : 6
+  } ],
+  "bujoFile" : "C:\\Users\\andre\\CS3500\\pa05-mvc2\\src\\main\\testfiles\\andreTest",
+  "notesAndQuotes" : null,
+  "weekTitle" : null,
+  "password" : "cs3500"
+}
